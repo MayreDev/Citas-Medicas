@@ -9,20 +9,16 @@
 /* Begin PBXBuildFile section */
 		C687F8632A4895E900EF09C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C687F8622A4895E900EF09C3 /* AppDelegate.swift */; };
 		C687F8652A4895E900EF09C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C687F8642A4895E900EF09C3 /* SceneDelegate.swift */; };
-		C687F8672A4895E900EF09C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C687F8662A4895E900EF09C3 /* ViewController.swift */; };
-		C687F86A2A4895E900EF09C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C687F8682A4895E900EF09C3 /* Main.storyboard */; };
+		C687F8672A4895E900EF09C3 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C687F8662A4895E900EF09C3 /* SplashViewController.swift */; };
 		C687F86C2A4895EB00EF09C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C687F86B2A4895EB00EF09C3 /* Assets.xcassets */; };
-		C687F86F2A4895EB00EF09C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C687F86D2A4895EB00EF09C3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C687F85F2A4895E900EF09C3 /* Citas-Medicas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Citas-Medicas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C687F8622A4895E900EF09C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C687F8642A4895E900EF09C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C687F8662A4895E900EF09C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C687F8692A4895E900EF09C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C687F8662A4895E900EF09C3 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		C687F86B2A4895EB00EF09C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C687F86E2A4895EB00EF09C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C687F8702A4895EB00EF09C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,10 +54,8 @@
 			children = (
 				C687F8622A4895E900EF09C3 /* AppDelegate.swift */,
 				C687F8642A4895E900EF09C3 /* SceneDelegate.swift */,
-				C687F8662A4895E900EF09C3 /* ViewController.swift */,
-				C687F8682A4895E900EF09C3 /* Main.storyboard */,
+				C687F8662A4895E900EF09C3 /* SplashViewController.swift */,
 				C687F86B2A4895EB00EF09C3 /* Assets.xcassets */,
-				C687F86D2A4895EB00EF09C3 /* LaunchScreen.storyboard */,
 				C687F8702A4895EB00EF09C3 /* Info.plist */,
 			);
 			path = "Citas-Medicas";
@@ -125,9 +119,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C687F86F2A4895EB00EF09C3 /* LaunchScreen.storyboard in Resources */,
 				C687F86C2A4895EB00EF09C3 /* Assets.xcassets in Resources */,
-				C687F86A2A4895E900EF09C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +130,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C687F8672A4895E900EF09C3 /* ViewController.swift in Sources */,
+				C687F8672A4895E900EF09C3 /* SplashViewController.swift in Sources */,
 				C687F8632A4895E900EF09C3 /* AppDelegate.swift in Sources */,
 				C687F8652A4895E900EF09C3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C687F8682A4895E900EF09C3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C687F8692A4895E900EF09C3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C687F86D2A4895EB00EF09C3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C687F86E2A4895EB00EF09C3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C687F8712A4895EB00EF09C3 /* Debug */ = {
@@ -292,7 +265,6 @@
 				INFOPLIST_FILE = "Citas-Medicas/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +292,6 @@
 				INFOPLIST_FILE = "Citas-Medicas/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
